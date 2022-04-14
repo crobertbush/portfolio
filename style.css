@@ -133,7 +133,7 @@ body{
 /* additions */
 
 #home, #skills, #projects, #education, #experience, #resume, #contact, .card{
-    background-color: gray;
+    background-color: black;
     color: white;
 }
 
@@ -143,8 +143,8 @@ body{
 }
 
 #skills img{
-    max-width: 150px;
-    max-height: 150px;
+    width: 150px;
+    height: 150px;
     padding: 10px;
 }
 

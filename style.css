@@ -133,12 +133,12 @@ body{
 /* additions */
 
 #home, #skills, #projects, #education, #experience, #resume, #contact, .card{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .card{
-    border: 1px solid white;
+    border: 1px solid black;
     margin: 10px;
 }
 

@@ -155,3 +155,7 @@ h1{
 .card{
     width: 300px;
 }
+
+.card img{
+    min-height: 200px;
+}

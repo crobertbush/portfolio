@@ -140,6 +140,7 @@ body{
 .card{
     border: 1px solid black;
     margin: 20px;
+    width: 300px;
 }
 
 #skills img{
@@ -152,10 +153,7 @@ h1{
     text-align: center;
 }
 
-.card{
-    width: 300px;
-}
-
 .card img{
     min-height: 200px;
 }
+

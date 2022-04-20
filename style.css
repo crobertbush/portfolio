@@ -137,10 +137,38 @@ body{
     color: black;
 }
 
+h1{
+    text-align: center;
+}
+
 .card{
-    border: 1px solid black;
+    border: 1px solid grey;
     margin: 20px;
-    width: 300px;
+    width: 320px;
+    
+}
+
+.card img{
+    min-height: 210px;
+}
+
+@media (min-width: 380px) {
+.card:hover {
+    box-shadow: 2px 2px 3px 1px rgba(1, 2, 2, .2);
+    transform: scale(1.1);
+    }
+}
+
+.card a:hover{
+    transform: scale(1.3);
+}
+
+.card-footer{
+    background-color: white;
+    text-align: center;
+    border-color: transparent;
+    margin: 0px;
+    padding: 0px;
 }
 
 #skills img{
@@ -149,11 +177,15 @@ body{
     padding: 10px;
 }
 
-h1{
-    text-align: center;
+#education img{
+    height: 200px;
+    width: 200px;
+    align-items: center;
 }
 
-.card img{
-    min-height: 200px;
-}
+
+
+
+
+
 
